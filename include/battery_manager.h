@@ -1,12 +1,12 @@
 /**
- * @file battery_monitor.h
+ * @file battery_manager.h
  *
  * @brief Functions to start and stop the battery manager thread
  *
  */
 
-#ifndef BATTERY_MONITOR_H
-#define BATTERY_MONITOR_H
+#ifndef BATTERY_MANAGER_H
+#define BATTERY_MANAGER_H
 
 #include <fly_types.h>
 
@@ -18,7 +18,7 @@
  *
  * @param      core_state    the most recent attitude and controller values
  *                           reported by the fly_controller
- * @param      fly_settings  The fly settings !!!
+ * @param      fly_settings  flight config settings from the json file
  *
  * @return     0 on success, -1 on failure
  */
