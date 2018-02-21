@@ -39,7 +39,7 @@ int initialize_mixing_matrix(rotor_layout_t layout);
  *             in mixing_matrix.c
  *
  * @param      u     { parameter_description }
- * @param      mot   The mot
+ * @param      mot   The motor matrix
  *
  * @return     0 on success, -1 on failure
  */
